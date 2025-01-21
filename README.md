@@ -1,2 +1,2 @@
 # yazlab
-kocaeli üniversitesi yazılım labaratuvarı projeleri
+kocaeli üniversitesi yazılım labaratuvarı 3. projedir 
