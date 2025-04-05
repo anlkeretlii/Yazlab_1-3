@@ -1,68 +1,92 @@
-# 🎯 Akıllı Etkinlik Planlama Platformu
+# 🛍️ Eş Zamanlı Sipariş ve Stok Yönetimi Platformu
 
 
 ## 📋 Proje Özeti
 
-Modern bir etkinlik planlama platformu olan bu proje, kullanıcıların etkinlik oluşturmasına, katılmasına ve kişiselleştirilmiş önerilerden yararlanmasına olanak sağlar. Harita entegrasyonu ile etkinlik konumlarını görüntüleme ve rota planlama özellikleri sunmaktadır.
+Bu platform, işletmelerin sipariş ve stok yönetim süreçlerini optimize eden modern bir çözüm sunmaktadır. Multithreading, dinamik öncelik sıralaması ve gerçek zamanlı stok takibi özellikleriyle işletmelerin operasyonel süreçlerini dijitalleştirmektedir.
 
 ### 👥 Proje Ekibi
 - **Anıl Engin Keretli** (230201128) - Kocaeli Üniversitesi
 - **Ahmet Burak Karkaç** (220201173) - Kocaeli Üniversitesi
 
-## 🚀 Özellikler
+## 🚀 Temel Özellikler
 
-- 👤 Kullanıcı yönetimi ve kimlik doğrulama
-- 📅 Etkinlik oluşturma ve yönetimi
-- 🗺️ Harita entegrasyonu ve rota planlama
-- 💬 Mesajlaşma sistemi
-- 🎮 Gamification (Oyunlaştırma) sistemi
-- 🎯 Kişiselleştirilmiş etkinlik önerileri
-- ⚡ Çakışma kontrolü
-- 👑 Admin paneli
+### 👤 Müşteri Yönetimi
+- Premium ve Normal müşteri kategorileri
+- Dinamik öncelik sıralaması
+- Kişiselleştirilmiş müşteri deneyimi
 
-## 🛠️ Kullanılan Teknolojiler
-
-- **.NET Framework** - Backend geliştirme
-- **PostgreSQL** - Veritabanı yönetimi
-- **React.js** - Frontend geliştirme
-- **Entity Framework Core** - ORM
-- **ASP.NET Core** - Web API
-- **JWT** - Kimlik doğrulama
-
-## 📦 Temel Bileşenler
-
-### 1. Kullanıcı Yönetimi (AuthenticationService)
-- Kullanıcı kaydı ve girişi
-- Profil yönetimi
-- İlgi alanları belirleme
-
-### 2. Etkinlik Yönetimi (EventService)
-- Etkinlik oluşturma
-- Etkinlik güncelleme ve silme
-- Katılımcı yönetimi
+### 📦 Stok Yönetimi
+- Gerçek zamanlı stok takibi
 - Çakışma kontrolü
+- Kritik stok seviyesi uyarıları
 
-### 3. Gamification Sistemi (GamificationService)
-- Puan hesaplama
-- Aktivite geçmişi
-- Kullanıcı başarıları
-
-### 4. Mesajlaşma Sistemi (MessageService)
-- Etkinlik bazlı mesajlaşma
-- Kullanıcılar arası iletişim
-
-### 5. Admin Paneli (AdminService)
+### 👑 Admin Paneli
+- Ürün ekleme/silme/düzenleme
+- Stok yönetimi
 - Kullanıcı yönetimi
-- Etkinlik moderasyonu
-- Sistem yönetimi
-![image](https://github.com/user-attachments/assets/02bb3f80-aeae-4166-b1a6-e7683608988c)
 
-![image](https://github.com/user-attachments/assets/df678d57-3d9d-4f84-b2e4-eddee356ba37)
+### 📊 Raporlama ve İzleme
+- Gerçek zamanlı loglama
+- İşlem takibi
+- Performans analizi
 
-![image](https://github.com/user-attachments/assets/29822ac8-9528-4695-a17c-49ddafb180b0)
+## 🛠️ Teknolojik Altyapı
 
-![image](https://github.com/user-attachments/assets/27093695-3c10-4429-af5e-728614b57bc3)
+### Geliştirme Ortamı
+- **Programlama Dili:** Java
+- **IDE:** IntelliJ IDEA
+- **Veritabanı:** MongoDB
 
----
+### Teknik Özellikler
+- Multithreading yapısı
+- Senkronizasyon mekanizmaları
+- Dinamik öncelik algoritmaları
+- İlişkisel veritabanı tasarımı
 
-⭐ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!
+## 📝 Sistem Mimarisi
+
+### Müşteri Kayıt Süreci
+```java
+1. Kullanıcı kayıt formu doldurur
+2. Sistem bilgileri doğrular
+3. Veritabanına kayıt
+4. Onay/hata mesajı gösterimi
+```
+
+### Sipariş Süreci
+```java
+1. Müşteri sipariş oluşturur
+2. Sistem stok ve bakiye kontrolü yapar
+3. Öncelik sıralaması belirlenir
+4. İşlem gerçekleştirilir
+5. Stok güncellenir
+```
+
+## 🎯 Performans ve Test Sonuçları
+
+### Kullanıcı Deneyimi Testleri
+- Arayüz kullanım kolaylığı
+- İşlem hızı ve doğruluğu
+- Görselleştirme etkinliği
+
+### Sistem Performansı
+- Çoklu işlem yönetimi
+- Veritabanı performansı
+- Senkronizasyon başarısı
+
+## 📊 Deneysel Sonuçlar
+
+1. **Kullanıcı Memnuniyeti**
+   - Kolay kullanım
+   - Hızlı işlem süreci
+   - Etkili görselleştirme
+
+2. **Sistem Performansı**
+   - Başarılı çakışma yönetimi
+   - Hızlı veri işleme
+   - Güvenilir senkronizasyon
+
+![image](https://github.com/user-attachments/assets/5c45b792-8734-495a-ae85-6231a9779954)
+![image](https://github.com/user-attachments/assets/e798f81b-b7ef-481c-9a72-555fc62477b9)
+![image](https://github.com/user-attachments/assets/24012325-5f77-46a9-9a46-a338457e1e11)
